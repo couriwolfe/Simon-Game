@@ -1,0 +1,114 @@
+body {
+  background-color: #D0D0D0; 
+  font-family: 'VT323', monospace;
+}
+
+button {
+  border-radius: 15px;
+  border-style: none;
+  font-family: 'VT323', monospace;
+  font-size: 1.5em;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.game-board {
+  background-color: #333;
+  border: solid 20px #333;
+  border-radius: 50%;
+  height: 450px;
+  margin: 75px auto;
+  width: 450px;
+}
+
+.game-button {
+  border: solid 10px #333;
+  float: left;
+  height: 205px;
+  margin: 0;
+  position: relative;
+  width: 205px;
+  z-index: 1;
+}
+
+.green {
+  background-color: #27ae60;
+  border-top-left-radius: 90%;
+}
+
+.red {
+  background-color: #c0392b;
+  border-top-right-radius: 90%;
+}
+
+.yellow {
+  background-color: #f39c12;
+  border-bottom-left-radius: 90%;
+}
+
+.blue {
+  background-color: #2980b9;
+  border-bottom-right-radius: 90%;
+}
+
+.background-change {
+  background-color: #ecf0f1;
+}
+
+.controls {
+  background-color: #ecf0f1;
+  border: solid 20px #333;
+  border-radius: 50%;
+  height: 220px;
+  margin-left: 94px;
+  margin-top: 94px;
+  position: absolute;
+  width: 220px;
+  z-index: 2;
+}
+
+.title {
+  color: #333;
+  font-size: 4em;
+  margin-top: 20px;
+}
+
+#screen {
+  background-color: #FA8072;
+  border-radius: 25%;
+  color: #DC143C;
+  font-size: 3.5em;
+  height: 60px;
+  margin: -5px 80px 5px;
+  width: 60px;
+}
+
+#start-btn {
+  color: #ecf0f1;
+}
+
+.green-start-btn {
+  background-color: #32CD32;
+}
+
+.disabled-btn {
+  background-color: #A0A0A0;
+}
+
+#reset-btn {
+  background-color: #DC143C;
+  color: #ecf0f1;
+}
+
+.title {
+  color: #333;
+  font-size: 4em;
+  margin-top: 20px;
+}
+
+.game-over {
+  background-color: #DC143C;
+}
