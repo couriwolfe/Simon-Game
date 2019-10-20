@@ -1,6 +1,10 @@
 /*
-The part of this code that I am the most proud of is that this code is based on a project that was done entirely in ES5 and jQuery. I refactored the entire code myself to use only vanilla JavaScript, and also converted it to ES6.
-*/
+ * The part of this code that I am the most proud of 
+ * is that this code is based on a project that was 
+ * done entirely in ES5 and jQuery.
+ * I refactored the entire code myself to use only 
+ * vanilla JavaScript, and also converted it to ES6.
+ */
 
 const buttonColors = ['green', 'red', 'yellow', 'blue'];
 
